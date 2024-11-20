@@ -43,12 +43,12 @@ section .navbar a:hover{
 }
 section .slideshow{
     background-color: pink;
-    height: 1350px;
+    height: 100vh;
     text-align: center;
     background: linear-gradient(to bottom, pink 90%, black 100%);
 }
 section .showcases{
-    height: 2900px;
+    /*height: 2900px; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -57,6 +57,7 @@ section .showcases .sub{
     display: flex;
     justify-content: center;
     align-items: stretch;
+    height: 100vh;
 }
 section .showcases .sub h1:hover{
     background-color: rgba(0, 0, 0, 0.4) !important;
@@ -69,7 +70,7 @@ section .showcases .sub  h1, .showcases .sub a{
     transition: 0.2s;
 }
 section .showcases #lambo-show{
-    background: url(Images/lambo1demo.jpg);
+    background: url(images/lambo1demo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -100,7 +101,7 @@ section .showcases #lambo-show a{
     right: 0;
 }
 section .showcases #mclaren-show{
-    background: url(Images/mclaren1demo.jpg);
+    background: url(images/mclaren1demo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -132,7 +133,7 @@ section .showcases #mclaren-show a{
     right: 0;
 }
 section .showcases #ferrari-show{
-    background: url(Images/ferrari1demo.jpg);
+    background: url(images/ferrari1demo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -163,7 +164,7 @@ section .showcases #ferrari-show a{
     right: 0;
 }
 section .showcases #porsche-show{
-    background: url(Images/porsche1demo.webp);
+    background: url(images/porsche1demo.webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -194,7 +195,7 @@ section .showcases #porsche-show a{
     right: 0;
 }
 section .showcases #koenigsegg-show{
-    background: url(Images/koenigsegg1demo.jpg);
+    background: url(images/koenigsegg1demo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -225,7 +226,7 @@ section .showcases #koenigsegg-show a{
     right: 0;
 }
 section .showcases #pagani-show{
-    background: url(Images/pagani1demo.jpg);
+    background: url(images/pagani1demo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
