@@ -69,7 +69,7 @@ section .showcases .sub  h1, .showcases .sub a{
     transition: 0.2s;
 }
 section .showcases #lambo-show{
-    background: url(images/lambo1demo.jpg);
+    background: url(Images/lambo1demo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -100,7 +100,7 @@ section .showcases #lambo-show a{
     right: 0;
 }
 section .showcases #mclaren-show{
-    background: url(images/mclaren1demo.jpg);
+    background: url(Images/mclaren1demo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -132,7 +132,7 @@ section .showcases #mclaren-show a{
     right: 0;
 }
 section .showcases #ferrari-show{
-    background: url(images/ferrari1demo.jpg);
+    background: url(Images/ferrari1demo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -163,7 +163,7 @@ section .showcases #ferrari-show a{
     right: 0;
 }
 section .showcases #porsche-show{
-    background: url(images/porsche1demo.webp);
+    background: url(Images/porsche1demo.webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -194,7 +194,7 @@ section .showcases #porsche-show a{
     right: 0;
 }
 section .showcases #koenigsegg-show{
-    background: url(images/koenigsegg1demo.jpg);
+    background: url(Images/koenigsegg1demo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -225,7 +225,7 @@ section .showcases #koenigsegg-show a{
     right: 0;
 }
 section .showcases #pagani-show{
-    background: url(images/pagani1demo.jpg);
+    background: url(Images/pagani1demo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
