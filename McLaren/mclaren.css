@@ -6,17 +6,17 @@ a {
 
 @font-face {
     font-family: Lamborghini;
-    src: url(Fonts/Lambo.ttf);
+    src: url(../Fonts/Lambo.ttf);
 }
 
 @font-face {
     font-family: BodyFont;
-    src: url(Fonts/NotoSans-Bold.ttf);
+    src: url(../Fonts/NotoSans-Bold.ttf);
 }
 
 @font-face {
     font-family: Mclaren;
-    src: url(Fonts/Moki-Mono.otf);
+    src: url(../Fonts/Moki-Mono.otf);
     letter-spacing: 2px;
 }
 body{
