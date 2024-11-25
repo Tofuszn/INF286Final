@@ -58,10 +58,7 @@ section .navbar a:hover{
 section .slideshow{
     background-color: pink;
     height: 100vh;
-<<<<<<< HEAD
     margin-top: 20px;
-=======
->>>>>>> f812c3735442de99697823c647f7025d23c7edc5
     text-align: center;
     background: linear-gradient(to bottom, pink 90%, black 100%);
     position: relative;
@@ -113,10 +110,6 @@ section .slideshow{
 
 
 section .showcases{
-<<<<<<< HEAD
-=======
-    /*height: 2900px; */
->>>>>>> f812c3735442de99697823c647f7025d23c7edc5
     display: flex;
     flex-wrap: wrap;
 }
