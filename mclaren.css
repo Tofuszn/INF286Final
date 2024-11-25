@@ -1,0 +1,180 @@
+
+a {
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: Lamborghini;
+    src: url(Fonts/Lambo.ttf);
+}
+
+@font-face {
+    font-family: BodyFont;
+    src: url(Fonts/NotoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Mclaren;
+    src: url(Fonts/Moki-Mono.otf);
+    letter-spacing: 2px;
+}
+body{
+    font-family: BodyFont;
+}
+section .logo-line {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+}
+section .logo-line img {
+    position: absolute;
+    top: -2500%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section .navbar{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+}
+section .navbar .navlinks-left{
+    width: 42%;
+    display: flex;
+    padding-left: 8px;
+    justify-content: space-between;
+}
+section .navbar .navlinks-right{
+    width: 42%;
+    padding-right: 8px;
+    display: flex;
+    justify-content: space-between;
+}   
+section .navbar a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness:calc(25%);
+}
+
+section .history{
+    background-color: pink;
+    padding-bottom: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 125px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+section .history .history-header{
+    font-size: 35px;
+    color: white;
+    background-color: red;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    font-family: Mclaren;
+    border-radius: 25px;
+    transition: 0.2s;
+    margin-top: 100px;
+}
+.history-header:hover{
+    transform: scale(1.2);
+}
+
+section .history .history-text{
+    background-color: #fff;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+section .models{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+section .models #mod{
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 15px;
+}
+section .models .trims{
+    display: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 9px;
+    margin-top: 7px;
+    position: absolute;
+}
+section .models .murcielago:hover .trims{
+    display: block;
+}
+section .models .aventador:hover .trims{
+    display: block;
+}
+section .models .huracan:hover .trims{
+    display: block;
+}
+section .models .gallardo:hover .trims{
+    display: block;
+}
+section .models li{
+    color: white;
+    transition: 0.17s;
+}
+li a{color: white;}
+section .models li:hover{
+    transform: scaleX(1.2);
+}
+section .socials .footnav{
+    background-color: red;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section .socials .footnav .facebook{
+    color: #1877F2;
+    background-color: whitesmoke;
+    padding: 8px 12px;
+    border-radius: 7px;
+    transition: 0.25s;
+}
+section .socials .footnav .facebook:hover{
+    color: white;
+    text-shadow: 0 0 5px#feda77;
+    background-color: #1877F2;
+}
+section .socials .footnav .tiktok{
+    color: #010101;
+    text-shadow: -1px -2px 0 #25f4ee, 2px 1px 0 #fe2c55;
+    background-color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 7px;
+    transition: 0.25s;
+}
+section .socials .footnav .tiktok:hover{
+    color: white;
+    background-color: #010101;
+}
+section .socials .footnav .twitter{
+    color: #1877F2;
+    padding: 8px 10px;
+    text-shadow: 0px 0px 2px black, 0px 0px 12px white;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    transition: 0.25s;
+}
+section .socials .footnav .twitter:hover{
+    color: white;
+    text-shadow: 0 0 5px#feda77;
+    background-color: #1877F2;
+}
+section .socials .footnav a{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px !important;
+}
+section .socials .footnav a:hover{
+    border: 3px solid white;
+}
