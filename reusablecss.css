@@ -56,6 +56,7 @@ section .navbar{
     display: flex;
     background-color: rgba(0, 0, 0, 0.85);
     justify-content: space-between;
+    padding: 10px;
 }
 section .navbar .navlinks-left{
     width: 42%;
