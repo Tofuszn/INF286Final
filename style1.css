@@ -34,7 +34,10 @@ body{
     src: url(Fonts/Arkitech.ttf);
 }
 
-body{font-family: BodyFont; background-color: white;}
+body{font-family: BodyFont; background-color: white;
+    margin: 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
     color: white;
@@ -52,7 +55,7 @@ section .logo-line img {
 }
 section .navbar{
     display: flex;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
     justify-content: space-between;
 }
 section .navbar .navlinks-left{
@@ -394,7 +397,7 @@ section .about-us img:hover{
 }
 
 section .socials .footnav{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
     text-align: center;
     height: 50px;
     display: flex;
