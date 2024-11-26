@@ -26,13 +26,18 @@ body{
     src: url(Fonts/911porschav3.ttf);
 }
 @font-face {
+    font-family: Koenigsegg;
+    src: url(Fonts/Neographik\ W00.ttf);
+}
+@font-face {
     font-family: Pagani;
     src: url(Fonts/Arkitech.ttf);
 }
 
-body{font-family: BodyFont;}
+body{font-family: BodyFont; background-color: white;}
 a {
     text-decoration: none;
+    color: white;
 }
 section .logo-line {
     position: relative;
@@ -47,7 +52,7 @@ section .logo-line img {
 }
 section .navbar{
     display: flex;
-    background-color: red;
+    background-color: black;
     justify-content: space-between;
 }
 section .navbar .navlinks-left{
@@ -63,9 +68,11 @@ section .navbar .navlinks-right{
     justify-content: space-between;
 }   
 section .navbar a:hover{
-    text-decoration: underline;
-    text-decoration-color: white;
-    text-decoration-thickness:calc(25%);
+    border-radius: 10px;
+    color: black;
+    border: 3px solid black;
+    background-color: #fff;
+    padding: 2px 5px;
 }
 section .slideshow{
     height: 100vh;
@@ -74,9 +81,13 @@ section .slideshow{
     position: relative;
 
 }
+section .navbar a{
+    transition: 0.1s;
+}
 #slides {
     width: 100%;
     height: 100vh;
+    
   }
   button {
     position: absolute;
@@ -118,6 +129,7 @@ section .slideshow{
 section .showcases{
     display: flex;
     flex-wrap: wrap;
+    
 }
 section .showcases .sub{
     height: 100vh;
@@ -126,6 +138,7 @@ section .showcases .sub{
     justify-content: center;
     align-items: stretch;
     height: 100vh;
+   
 }
 section .showcases .sub h1:hover{
     background-color: rgba(0, 0, 0, 0.4) !important;
@@ -221,7 +234,7 @@ section .showcases #ferrari-show h1{
     position: absolute;
     color: black;
     font-family: Ferrari;
-    font-size: 35px;
+    font-size: 45px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 16px;
     top: 20px;
@@ -288,9 +301,10 @@ section .showcases #koenigsegg-show h1{
     text-align: center;
     position: absolute;
     color: black;
+    font-family: Koenigsegg;
     font-size: 35px;
     text-shadow: 0 0 5px whitesmoke;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 16px;
     top: 20px;
     left: 50%; 
@@ -380,7 +394,7 @@ section .about-us img:hover{
 }
 
 section .socials .footnav{
-    background-color: red;
+    background-color: black;
     text-align: center;
     height: 50px;
     display: flex;
