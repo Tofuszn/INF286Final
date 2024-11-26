@@ -1,5 +1,5 @@
 const images = [
-    "Images/Lambo/Aventador/SVJ/svj3.webp",
+    "Images/Lambo/Aventador/SVJ/svjgalaxy.jpg",
     "Images/mclaren1demo.jpg",
     "Images/pagani1demo.jpg",
     "Images/koenigsegg1demo.jpg",

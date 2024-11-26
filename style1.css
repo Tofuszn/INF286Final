@@ -76,6 +76,7 @@ section .navbar a:hover{
 }
 section .slideshow{
     height: 100vh;
+
     margin-top: 20px;
     text-align: center;
     position: relative;
@@ -86,7 +87,7 @@ section .navbar a{
 }
 #slides {
     width: 100%;
-    height: 100vh;
+    height: 100h;
     
   }
   button {
