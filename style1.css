@@ -1,4 +1,79 @@
+body{
+    background-color: black;
+}
 
+@font-face {
+    font-family: Lamborghini;
+    src: url(Fonts/Lambo.ttf);
+}
+
+@font-face {
+    font-family: BodyFont;
+    src: url(Fonts/NotoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Mclaren;
+    src: url(Fonts/Moki-Mono.otf);
+    letter-spacing: 2px;
+}
+@font-face {
+    font-family: Ferrari;
+    src: url(Fonts/ferro-rosso/FerroRosso.ttf);
+}
+@font-face {
+    font-family: Porsche;
+    src: url(Fonts/911porschav3.ttf);
+}
+@font-face {
+    font-family: Koenigsegg;
+    src: url(Fonts/Neographik\ W00.ttf);
+}
+@font-face {
+    font-family: Pagani;
+    src: url(Fonts/Arkitech.ttf);
+}
+
+body{font-family: BodyFont; background-color: white;}
+a {
+    text-decoration: none;
+    color: white;
+}
+section .logo-line {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+}
+section .logo-line img {
+    position: absolute;
+    top: -2500%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section .navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+section .navbar .navlinks-left{
+    width: 42%;
+    display: flex;
+    padding-left: 8px;
+    justify-content: space-between;
+}
+section .navbar .navlinks-right{
+    width: 42%;
+    padding-right: 8px;
+    display: flex;
+    justify-content: space-between;
+}   
+section .navbar a:hover{
+    border-radius: 10px;
+    color: black;
+    border: 3px solid black;
+    background-color: #fff;
+    padding: 2px 5px;
+}
 section .slideshow{
     height: 100vh;
     margin-top: 20px;
@@ -6,7 +81,9 @@ section .slideshow{
     position: relative;
 
 }
-
+section .navbar a{
+    transition: 0.1s;
+}
 #slides {
     width: 100%;
     height: 100vh;
@@ -56,7 +133,7 @@ section .showcases{
 }
 section .showcases .sub{
     height: 100vh;
-    flex: 1 1 calc(50%);
+    flex: 1 1 calc(100%);
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -69,13 +146,13 @@ section .showcases .sub h1:hover{
     font-size: 50px !important;
 }
 section .showcases .sub  h1, .showcases .sub a{
-    border: 3px solid white;
+    border: 3px solid #707176;
     border-radius: 15px !important;
     transition: 0.2s;
 }
 section .showcases #lambo-show{
-    background: url(Images/Lambo/Gallardo/SquadraCorse/Lamborghini-Gallardo-LP570-4-Squadra-Corse-45189.jpg);
-    background-size: cover;
+    background: url(Images/Lambo/Aventador/SVJ/bluecephus.avif);
+    background-size: 100%;
     background-position: center;
     display: flex;
     position: relative;
@@ -89,12 +166,13 @@ section .showcases #lambo-show h1{
     font-family: Lamborghini;
     text-shadow: 0 0 5px whitesmoke;
     font-size: 60px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #707176;
     border-radius: 16px;
     top: 20px;
     left: 50%; 
     transform: translateX(-50%); 
     padding: 10px;
+    opacity: 90%;
 }
 #lambo-show h1:hover{
     font-size: 70px !important;
@@ -110,7 +188,7 @@ section .showcases #lambo-show a{
     right: 0;
 }
 section .showcases #mclaren-show{
-    background: url(images/mclaren1demo.jpg);
+    background: url(images/Mclaren/P1/Base/p1again.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -125,7 +203,7 @@ section .showcases #mclaren-show h1{
     font-family: Mclaren;
     color: black;
     font-size: 45px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #707176;
     border-radius: 16px;
     top: 45px;
     left: 50%;
@@ -144,7 +222,7 @@ section .showcases #mclaren-show a{
     right: 0;
 }
 section .showcases #ferrari-show{
-    background: url(images/ferrari1demo.jpg);
+    background: url(images/Ferrari/sf90/sf90front.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -158,7 +236,7 @@ section .showcases #ferrari-show h1{
     color: black;
     font-family: Ferrari;
     font-size: 45px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #707176;
     border-radius: 16px;
     top: 20px;
     text-shadow: 0 0 5px whitesmoke;
@@ -178,7 +256,7 @@ section .showcases #ferrari-show a{
     right: 0;
 }
 section .showcases #porsche-show{
-    background: url(images/porsche1demo.webp);
+    background: url(images/Porsche/911/ST/911\ ST.webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -193,7 +271,7 @@ section .showcases #porsche-show h1{
     color: black;
     height: 30px;
     font-size: 35px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #707176;
     border-radius: 16px;
     text-shadow: 0 0 5px whitesmoke;
     top: 20px;
@@ -227,7 +305,7 @@ section .showcases #koenigsegg-show h1{
     font-family: Koenigsegg;
     font-size: 35px;
     text-shadow: 0 0 5px whitesmoke;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #707176;
     border-radius: 16px;
     top: 20px;
     left: 50%; 
@@ -260,7 +338,7 @@ section .showcases #pagani-show h1{
     color: black;
     text-shadow: 0 0 5px whitesmoke;
     font-size: 35px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #707176;
     border-radius: 16px;
     top: 20px;
     left: 50%; 
@@ -316,3 +394,55 @@ section .about-us img:hover{
     transform: scale(1.16);
 }
 
+section .socials .footnav{
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section .socials .footnav .facebook{
+    color: #1877F2;
+    background-color: whitesmoke;
+    padding: 8px 12px;
+    border-radius: 7px;
+    transition: 0.25s;
+}
+section .socials .footnav .facebook:hover{
+    color: white;
+    text-shadow: 0 0 5px#feda77;
+    background-color: #1877F2;
+}
+section .socials .footnav .tiktok{
+    color: #010101;
+    text-shadow: -1px -2px 0 #25f4ee, 2px 1px 0 #fe2c55;
+    background-color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 7px;
+    transition: 0.25s;
+}
+section .socials .footnav .tiktok:hover{
+    color: white;
+    background-color: #010101;
+}
+section .socials .footnav .twitter{
+    color: #1877F2;
+    padding: 8px 10px;
+    text-shadow: 0px 0px 2px black, 0px 0px 12px white;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    transition: 0.25s;
+}
+section .socials .footnav .twitter:hover{
+    color: white;
+    text-shadow: 0 0 5px#feda77;
+    background-color: #1877F2;
+}
+section .socials .footnav a{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px !important;
+}
+section .socials .footnav a:hover{
+    border: 3px solid white;
+}
