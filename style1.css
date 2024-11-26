@@ -17,6 +17,18 @@ body{
     src: url(Fonts/Moki-Mono.otf);
     letter-spacing: 2px;
 }
+@font-face {
+    font-family: Ferrari;
+    src: url(Fonts/ferro-rosso/FerroRosso.ttf);
+}
+@font-face {
+    font-family: Porsche;
+    src: url(Fonts/911porschav3.ttf);
+}
+@font-face {
+    font-family: Pagani;
+    src: url(Fonts/Arkitech.ttf);
+}
 
 body{font-family: BodyFont;}
 a {
