@@ -3,8 +3,11 @@ section .header{
     text-align: center;
     padding: 50px;
     font-family: Lamborghini;
-    font-size: 60px;   
+    font-size: 60px;
+    text-shadow: 0 0 5px;
+    transition: 0.3s; 
 }
+
 section #lp640{
     display: flex;
     justify-content: center;
@@ -25,8 +28,9 @@ section #lp640 .texts{
     margin: 15px;
 }
 section #lp640 .texts .trim1{
-    border: 1px solid black;
+    border: 3px solid white;
     text-align: center;
+    border-radius: 5px;
     padding: 5px 60px;
     font-size: 36px;
     margin-top: 5px;
@@ -51,7 +55,8 @@ section #lp670sv .texts1{
     margin: 15px;
 }
 section #lp670sv .texts1 .trim2{
-    border: 1px solid black;
+    border: 3px solid white;
+    border-radius: 5px;
     text-align: center;
     padding: 5px 60px;
     font-size: 36px;

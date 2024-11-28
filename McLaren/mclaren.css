@@ -45,6 +45,7 @@ section .models #mod{
     background-color: black;
     padding: 8px 40px;
     border-radius: 15px;
+    border: 2px solid whitesmoke;
 }
 section .models .trims{
     display: none;

@@ -1,83 +1,7 @@
-body{
-    background-color: black;
-}
 
-@font-face {
-    font-family: Lamborghini;
-    src: url(Fonts/Lambo.ttf);
-}
-
-@font-face {
-    font-family: BodyFont;
-    src: url(Fonts/NotoSans-Bold.ttf);
-}
-
-@font-face {
-    font-family: Mclaren;
-    src: url(Fonts/Moki-Mono.otf);
-    letter-spacing: 2px;
-}
-@font-face {
-    font-family: Ferrari;
-    src: url(Fonts/ferro-rosso/FerroRosso.ttf);
-}
-@font-face {
-    font-family: Porsche;
-    src: url(Fonts/911porschav3.ttf);
-}
-@font-face {
-    font-family: Koenigsegg;
-    src: url(Fonts/Neographik\ W00.ttf);
-}
-@font-face {
-    font-family: Pagani;
-    src: url(Fonts/Arkitech.ttf);
-}
-
-body{font-family: BodyFont; background-color: white;}
-a {
-    text-decoration: none;
-    color: white;
-}
-section .logo-line {
-    position: relative;
-    margin-top: 60px;
-    width: 100%;
-}
-section .logo-line img {
-    position: absolute;
-    top: -2500%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-section .navbar{
-    display: flex;
-    background-color: black;
-    justify-content: space-between;
-}
-section .navbar .navlinks-left{
-    width: 42%;
-    display: flex;
-    padding-left: 8px;
-    justify-content: space-between;
-}
-section .navbar .navlinks-right{
-    width: 42%;
-    padding-right: 8px;
-    display: flex;
-    justify-content: space-between;
-}   
-section .navbar a:hover{
-    border-radius: 10px;
-    color: black;
-    border: 3px solid black;
-    background-color: #fff;
-    padding: 2px 5px;
-}
 section .slideshow{
-    height: 100vh;
-
-    margin-top: 20px;
+    height: 120vh;
+    margin: auto;
     text-align: center;
     position: relative;
 
@@ -87,12 +11,11 @@ section .navbar a{
 }
 #slides {
     width: 100%;
-    height: 100h;
-    
+    height: 100%;
   }
   button {
     position: absolute;
-    top: 89%;
+    top: 80%;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     border: none;
@@ -108,19 +31,9 @@ section .navbar a{
     text-shadow: 0 0 5px whitesmoke;
     transform: scale(1.2);
   }
-  
   .next {
     left: 40px;
   }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -138,7 +51,7 @@ section .showcases .sub{
     display: flex;
     justify-content: center;
     align-items: stretch;
-    height: 100vh;
+
    
 }
 section .showcases .sub h1:hover{
@@ -153,9 +66,10 @@ section .showcases .sub  h1, .showcases .sub a{
 }
 section .showcases #lambo-show{
     background: url(Images/Lambo/Aventador/SVJ/bluecephus.avif);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     display: flex;
+    background-repeat: no-repeat;
     position: relative;
     flex-direction: column;
     justify-content: space-around;
@@ -191,7 +105,7 @@ section .showcases #lambo-show a{
 section .showcases #mclaren-show{
     background: url(images/Mclaren/P1/Base/p1again.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: calc(88%);
     display: flex;
     position: relative;
     flex-direction: column;
@@ -380,8 +294,8 @@ section .about-us .text {
   flex-direction: column;
   gap: 15px;
 }
-section img{
-    transition: 0.2s
+section .about-us img{
+    border-radius: 50%;
 }
 .header {
   font-size: 35px;
@@ -391,59 +305,18 @@ section img{
 .plaintext {         
   max-width: 400px;     
 }
-section .about-us img:hover{
-    transform: scale(1.16);
+
+section .slogan{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 }
 
-section .socials .footnav{
-    background-color: black;
-    text-align: center;
-    height: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-section .socials .footnav .facebook{
-    color: #1877F2;
-    background-color: whitesmoke;
-    padding: 8px 12px;
-    border-radius: 7px;
-    transition: 0.25s;
-}
-section .socials .footnav .facebook:hover{
-    color: white;
-    text-shadow: 0 0 5px#feda77;
-    background-color: #1877F2;
-}
-section .socials .footnav .tiktok{
-    color: #010101;
-    text-shadow: -1px -2px 0 #25f4ee, 2px 1px 0 #fe2c55;
-    background-color: whitesmoke;
-    padding: 8px 10px;
-    border-radius: 7px;
-    transition: 0.25s;
-}
-section .socials .footnav .tiktok:hover{
-    color: white;
-    background-color: #010101;
-}
-section .socials .footnav .twitter{
-    color: #1877F2;
-    padding: 8px 10px;
-    text-shadow: 0px 0px 2px black, 0px 0px 12px white;
-    background-color: whitesmoke;
-    border-radius: 7px;
-    transition: 0.25s;
-}
-section .socials .footnav .twitter:hover{
-    color: white;
-    text-shadow: 0 0 5px#feda77;
-    background-color: #1877F2;
-}
-section .socials .footnav a{
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 15px !important;
-}
-section .socials .footnav a:hover{
-    border: 3px solid white;
+section .slogan #slogantext{
+    color: black;
+    font-family: Outfit;
+    font-size: 35pt;
+
 }

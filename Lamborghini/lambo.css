@@ -43,6 +43,7 @@ section .models{
 section .models #mod{
     background-color: black;
     padding: 8px;
+    border: 2px solid whitesmoke;
     border-radius: 15px;
 }
 section .models .trims{

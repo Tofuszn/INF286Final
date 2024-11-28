@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Lamborghini;
+    src: url(Fonts/Lambo.ttf);
+}
+
+@font-face {
+    font-family: BodyFont;
+    src: url(Fonts/NotoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Mclaren;
+    src: url(Fonts/Moki-Mono.otf);
+    letter-spacing: 2px;
+}
+@font-face {
+    font-family: Ferrari;
+    src: url(Fonts/ferro-rosso/FerroRosso.ttf);
+}
+@font-face {
+    font-family: Porsche;
+    src: url(Fonts/911porschav3.ttf);
+}
+@font-face {
+    font-family: Koenigsegg;
+    src: url(Fonts/Neographik\ W00.ttf);
+}
+@font-face {
+    font-family: Pagani;
+    src: url(Fonts/Arkitech.ttf);
+}
+
+.lamboheader{
+    font-family: Lamborghini;
+}
+.mclarenheader{
+    font-family: Mclaren;
+}
+.ferrariheader{
+    font-family: Ferrari;
+}
+.porscheheader{
+    font-family: Porsche;
+}
+.koenigseggheader{
+    font-family: Koenigsegg;
+}
+.paganiheader{
+    font-family: Pagani;
+}

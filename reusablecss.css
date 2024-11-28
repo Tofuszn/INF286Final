@@ -30,13 +30,18 @@
     font-family: Pagani;
     src: url(Fonts/Arkitech.ttf);
 }
+@font-face {
+    font-family: Outfit;
+    src: url(Fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
 
 body{
-    font-family: BodyFont; 
-    background-color: white;
+    font-family: BodyFont;
+    background-color: rgb(27, 27, 27);
     margin: 0;
     padding: 0;
 }
+span{color: white}
 a {
     text-decoration: none;
     color: white;
@@ -48,6 +53,9 @@ section .logo-line {
 }
 section .logo-line img {
     position: absolute;
+    border-radius: 50%;
+    border: 3px solid white;
+    background: url(LOGO/CarLogo.jpeg);
     top: -2500%;
     left: 50%;
     transform: translateX(-50%);
@@ -57,6 +65,12 @@ section .navbar{
     background-color: rgba(0, 0, 0, 0.85);
     justify-content: space-between;
     padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    margin-top: 0px;
+    box-shadow: 0 0 50px rgb(49, 49, 49);
 }
 section .navbar .navlinks-left{
     width: 42%;
@@ -69,8 +83,11 @@ section .navbar .navlinks-right{
     padding-right: 8px;
     display: flex;
     justify-content: space-between;
+}
+section .navbar span{
+    transition: 0.18s;
 }   
-section .navbar a:hover{
+section .navbar a:hover span{
     border-radius: 10px;
     color: black;
     border: 3px solid black;
@@ -79,6 +96,7 @@ section .navbar a:hover{
 }
 section .navbar a{
     transition: 0.1s;
+    text-shadow: 0 0 10px white;
 }
 section .socials .footnav{
     background-color: rgba(0, 0, 0, 0.85);
@@ -94,6 +112,7 @@ section .socials .footnav .facebook{
     padding: 8px 12px;
     border-radius: 7px;
     transition: 0.25s;
+    box-shadow: 0 0 15px blue;
 }
 section .socials .footnav .facebook:hover{
     color: white;
@@ -105,6 +124,7 @@ section .socials .footnav .tiktok{
     text-shadow: -1px -2px 0 #25f4ee, 2px 1px 0 #fe2c55;
     background-color: whitesmoke;
     padding: 8px 10px;
+    box-shadow: 0 0 15px red;
     border-radius: 7px;
     transition: 0.25s;
 }
@@ -119,6 +139,7 @@ section .socials .footnav .twitter{
     background-color: whitesmoke;
     border-radius: 7px;
     transition: 0.25s;
+    box-shadow: 0 0 15px cadetblue;
 }
 section .socials .footnav .twitter:hover{
     color: white;
