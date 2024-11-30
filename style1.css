@@ -205,7 +205,7 @@ section .showcases #porsche-show a{
     right: 0;
 }
 section .showcases #koenigsegg-show{
-    background: url(Images/Koenigsegg/Agera/koenigsegg\ agera\ 2.jpg);
+    background: url(Images/Koenigsegg/Jesko/jesko\ 8.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -238,7 +238,7 @@ section .showcases #koenigsegg-show a{
     right: 0;
 }
 section .showcases #pagani-show{
-    background: url(Images/Pagani/Huayra/Huayra\ 1.avif);
+    background: url(images/Pagani/Utopia/utopia\ 4.webp);
     background-size: cover;
     background-position: center;
     display: flex;
