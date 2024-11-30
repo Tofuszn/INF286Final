@@ -205,7 +205,7 @@ section .showcases #porsche-show a{
     right: 0;
 }
 section .showcases #koenigsegg-show{
-    background: url(images/koenigsegg1demo.jpg);
+    background: url(Images/Koenigsegg/Agera/koenigsegg\ agera\ 2.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -238,7 +238,7 @@ section .showcases #koenigsegg-show a{
     right: 0;
 }
 section .showcases #pagani-show{
-    background: url(images/pagani1demo.jpg);
+    background: url(Images/Pagani/Huayra/Huayra\ 1.avif);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -317,6 +317,9 @@ section .slogan{
 section .slogan #slogantext{
     color: black;
     font-family: Outfit;
+
     font-size: 35pt;
+    text-align: center;
+    padding: 20px 120px;
 
 }

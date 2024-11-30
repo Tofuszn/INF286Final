@@ -1,9 +1,9 @@
 const images = [
     "Images/Lambo/Aventador/SVJ/svjgalaxy.jpg",
-    "Images/mclaren1demo.jpg",
-    "Images/pagani1demo.jpg",
-    "Images/koenigsegg1demo.jpg",
-    "Images/ferrari1demo.jpg",
+    "Images/Mclaren/570s/spider/570s spider 2.webp",
+    "Images/Pagani/Huayra/Huayra 7.jpg",
+    "Images/Koenigsegg/Jesko/jesko 10.jpg",
+    "Images/Ferrari/LaFerrari/laferrari 4.jpg",
     "Images/porsche1demo.webp"
   ];
   

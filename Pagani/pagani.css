@@ -1,0 +1,78 @@
+
+
+section .history{
+    padding-bottom: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 125px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+section .history .history-header{
+    font-size: 50px;
+    color: white;
+    background-color: #707176;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    font-family: Pagani;
+    border-radius: 25px;
+    transition: 0.2s;
+    margin-top: 100px;
+}
+.homepagemclaren{
+    margin: auto;
+    margin-top: -70px;
+    margin-bottom: -20px;
+}
+.history-header:hover{
+    transform: scale(1.2);
+}
+
+section .history .history-text{
+    background-color: #fff;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+section .models{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+section .models #mod{
+    background-color: black;
+    padding: 8px 40px;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+}
+section .models .trims{
+    display: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 9px;
+    margin-top: 7px;
+    position: absolute;
+}
+
+section .models .murcielago:hover .trims{
+    display: block;
+}
+section .models .aventador:hover .trims{
+    display: block;
+}
+section .models .huracan:hover .trims{
+    display: block;
+}
+section .models .gallardo:hover .trims{
+    display: block;
+}
+section .models li{
+    color: white;
+    transition: 0.17s;
+}
+li a{color: white;}
+section .models li:hover{
+    transform: scaleX(1.2);
+}
