@@ -103,7 +103,7 @@ section .showcases #lambo-show a{
     right: 0;
 }
 section .showcases #mclaren-show{
-    background: url(Images/Mclaren/765lt/coupe/765l5\ 6.avif);
+    background: url(Images/Mclaren/P1/Base/mclarenp18.webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -137,10 +137,11 @@ section .showcases #mclaren-show a{
     right: 0;
 }
 section .showcases #ferrari-show{
-    background: url(images/Ferrari/sf90/sf90front.jpg);
+    background: url(Images/Ferrari/SF/sf90front.webp);
     background-size: cover;
     background-position: center;
     display: flex;
+    background-repeat: no-repeat;
     position: relative;
     flex-direction: column;
     justify-content: space-around;
@@ -171,10 +172,11 @@ section .showcases #ferrari-show a{
     right: 0;
 }
 section .showcases #porsche-show{
-    background: url(images/Porsche/911/ST/911\ ST.webp);
+    background: url(Images/Porsche/911/ST/911st.webp);
     background-size: cover;
     background-position: center;
     display: flex;
+    background-repeat: no-repeat;
     position: relative;
     flex-direction: column;
     justify-content: space-around;
@@ -238,7 +240,7 @@ section .showcases #koenigsegg-show a{
     right: 0;
 }
 section .showcases #pagani-show{
-    background: url(images/Pagani/Utopia/utopia\ 4.webp);
+    background: url(images/Pagani/Utopia/utopia4.webp);
     background-size: cover;
     background-position: center;
     display: flex;
