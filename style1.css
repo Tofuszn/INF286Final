@@ -103,7 +103,7 @@ section .showcases #lambo-show a{
     right: 0;
 }
 section .showcases #mclaren-show{
-    background: url(images/Mclaren/P1/Base/p1again.jpg);
+    background: url(images/Mclaren/P1/Base/mclarenp1.webp);
     background-size: cover;
     background-position: calc(88%);
     display: flex;
