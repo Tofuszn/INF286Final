@@ -23,3 +23,5 @@ Both of us collaborated together on this README, the home page, and the homepage
 In collaboration, everything was ensured to be an equal split of workload.
 
 We also addressed the branding, and we both designed a logo, social media pages, and fonts for this web project.
+
+This can be accessed through GitHub Pages at this URL: https://tofuszn.github.io/INF286Final/
