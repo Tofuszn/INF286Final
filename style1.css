@@ -103,14 +103,14 @@ section .showcases #lambo-show a{
     right: 0;
 }
 section .showcases #mclaren-show{
-    background: url(Images/Mclaren/P1/Base/p1again.jpg) !important;
+    background: url(Images/Mclaren/765lt/coupe/765l5\ 6.avif);
     background-size: cover;
-    background-position: calc(88%);
+    background-position: center;
     display: flex;
+    background-repeat: no-repeat;
     position: relative;
     flex-direction: column;
     justify-content: space-around;
-    overflow: hidden;
 }
 section .showcases #mclaren-show h1{
     text-align: center;
