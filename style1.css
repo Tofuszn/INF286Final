@@ -240,7 +240,7 @@ section .showcases #koenigsegg-show a{
     right: 0;
 }
 section .showcases #pagani-show{
-    background: url(images/Pagani/Utopia/utopia4.webp);
+    background: url(Images/Pagani/Utopia/utopia4.webp);
     background-size: cover;
     background-position: center;
     display: flex;
